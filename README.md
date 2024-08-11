@@ -8,9 +8,10 @@ During the course of this project automated Google Calendar to create, delete an
 ## Google Calendar Automation
 ### Scope of Work:
 Automated the following test cases:
-  1. Verify calendar home page
+  1. Verify calendar home page (https://calendar.google.com/)
   2. Verify calendar navigation and add task
   3. Verify the task details updation
   4. Verify the task deletion
+
 ### Skills Used:
 Selenium, Dynamic Xpaths
