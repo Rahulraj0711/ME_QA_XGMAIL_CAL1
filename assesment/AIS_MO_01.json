@@ -1,0 +1,157 @@
+{
+"instruction_set":[
+  {
+    "description": "TestCase 1: Verify Calendar Home Page",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "calendar"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "Navigate"
+      }
+    ],
+    "error_out": "Navigate to Calendar Home Page",
+    "hint": "Ensure that you are on the Calendar website with the correct URL."
+  },
+  {
+    "description": "TestCase 1: Verify Calendar Home Page",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetUrl"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "calendar"
+      }
+    ],
+    "error_out": "Get the URL of the page and verify",
+    "hint": "Ensure that you check the url of the page contains calendar"
+  },
+  {
+    "description": "TestCase 2: Verify Calendar Navigation and Add Task",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "Month"
+      }
+    ],
+    "error_out": "Did you switch to the Month view?",
+    "hint": "Ensure that you are switching to the month view"
+  },
+  {
+    "description": "TestCase 2: Verify Calendar Navigation and Add Task",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "Crio INTV Task Automation"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "TypeElement"
+      }
+    ],
+    "error_out": "Add Title as Crio INTV Task Automation",
+    "hint": "Ensure that you are sending the correct title of the task"
+  },
+  {
+    "description": "TestCase 2: Verify Calendar Navigation and Add Task",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "Crio INTV Calendar Task Automation"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "TypeElement"
+      }
+    ],
+    "error_out": "Add Description as Crio INTV Calendar Task Automation",
+    "hint": "Ensure that you are sending the correct description of the task"
+  },
+  {
+    "description": "TestCase 3: Verify the Task Updation",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "Crio INTV Task Automation is a test suite designed for automating various tasks on the Google Calendar web application"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "TypeElement"
+      }
+    ],
+    "error_out": "Did you update the description?",
+    "hint": "Ensure that you are updating the description of the task"
+  },
+  {
+    "description": "TestCase 3: Verify the Task Updation",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "Crio INTV Task Automation is a test suite designed for automating various tasks on the Google Calendar web application"
+      }
+    ],
+    "error_out": "Verify the updated description",
+    "hint": "Ensure that you are checking if the description is updated or not"
+  },
+  {
+    "description": "TestCase 4: Verify the Task deletion",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "Crio INTV Task Automation"
+      }
+    ],
+    "error_out": "Verify the title of the task",
+    "hint": "Ensure that you are verifying the title of the task is correct "
+  },
+  {
+    "description": "TestCase 4: Verify the Task deletion",
+    "validations": [
+      {
+        "object_notation": "COMMAND",
+        "operator": "contains",
+        "expected_value": "GetElementText"
+      },
+      {
+        "object_notation": "RESPONSE",
+        "operator": "contains",
+        "expected_value": "Task deleted"
+      }
+    ],
+    "error_out": "Verify the alert Task deleted has been displayed",
+    "hint": "Ensure that you are checking the alert text is equal to Task deleted"
+  }
+]
+}
