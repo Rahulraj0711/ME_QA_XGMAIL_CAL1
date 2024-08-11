@@ -12,5 +12,5 @@ Automated the following test cases:
   2. Verify calendar navigation and add task
   3. Verify the task details updation
   4. Verify the task deletion
-### Skill Used:
+### Skills Used:
 Selenium, Dynamic Xpaths
